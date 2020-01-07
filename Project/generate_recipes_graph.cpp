@@ -9,7 +9,7 @@ using namespace std;
 int main() {
     int num_recipes, num_ingredients, n, x;
 
-    ifstream f("recipes_by_ingredients.txt");
+    ifstream f("data/recipes_by_ingredients.txt");
     ofstream g("data/recipe_graph.txt");
 
     f >> num_recipes >> num_ingredients;
@@ -32,7 +32,6 @@ int main() {
         float idf = log((float)num_recipes / n);
         for (int j = 0; j < n - 1; ++j) {
             int ind1 = recipes_by_ingredients[i][j];
-            // cout << j << "\n";
             for (int k = j + 1; k < n; ++k) {
                 int ind2 = recipes_by_ingredients[i][k];
                 edges[ind1][ind2] += idf * 2 / (num_ing_recip[ind1] + num_ing_recip[ind2]);
@@ -47,6 +46,7 @@ int main() {
             g << "(" << it->first << "," << it->second << ") ";
         g << "\n";
     }
+    cout << "Finished writing graph\n";
 
     delete[] num_ing_recip;
     delete[] edges;
