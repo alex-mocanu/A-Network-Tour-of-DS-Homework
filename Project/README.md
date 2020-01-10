@@ -20,7 +20,6 @@ pickle
 scipy
 json
 networkx
-
 ```
 
 ### Notebooks and scripts
