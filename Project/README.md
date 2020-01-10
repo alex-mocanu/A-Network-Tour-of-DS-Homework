@@ -37,6 +37,7 @@ Once the previous libraries are successfully installed, you need to run several 
 ```analyze_graphs.ipynb``` : this notebook runs a graph analysis for the recipes and ingredients graphs (degree distribution, centrality, etc.).
 
 3. Cooking time
+
 ```cooking_time.ipynb``` : this notebook performs the computation of the cooking time from the raw instructions test and performs some analysis on the results.
 
 
@@ -49,7 +50,6 @@ Team 10 :
 * **Mircea Sorin-Sebastian** 
 * **Mocanu Alexandre** 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
