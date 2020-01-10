@@ -44,11 +44,12 @@ Once the previous libraries are successfully installed, you need to run several 
 ## Authors
 
 Project realised for the EPFL EE-558 course : A network tour of data science. 
+
 Team 10 : 
-* **Furtuna Andrei Calin** 
-* **Gafton Paul-Adrian** 
-* **Mircea Sorin-Sebastian** 
-* **Mocanu Alexandre** 
+* **Furtuna Andrei Calin** - [andrei-furtuna](https://github.com/andrei-furtuna)
+* **Gafton Paul-Adrian** - [Paul92](https://github.com/Paul92)
+* **Mircea Sorin-Sebastian** - [msorins](https://github.com/msorins)
+* **Mocanu Alexandru** - [alex-mocanu](https://github.com/alex-mocanu)
 
 
 ## License
