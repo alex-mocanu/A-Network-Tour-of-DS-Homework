@@ -8,7 +8,7 @@ The following instructions will provide you all the necessary information in ord
 
 ### Data set
 
-Throughout the project we used a subset of the Recipes 1M dataset that can be downloades from the * [dataset download page]( http://im2recipe.csail.mit.edu/dataset/) . 
+Throughout the project we used a subset of the Recipes 1M dataset that can be downloades from the [dataset download page]( http://im2recipe.csail.mit.edu/dataset/) . 
 
 ### Python Libraries
 
